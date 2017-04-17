@@ -1,0 +1,18 @@
+[package]
+name = "rand-bytes"
+version = "0.1.0"
+authors = ["Yong Wen Chua <me@yongwen.xyz>"]
+license = "Apache 2.0"
+description = "A simple tool to generate cryptographically secure random bytes using a cryptographic pseudo-random number generator."
+homepage = "https://github.com/lawliet89/rand-bytes"
+repository = "https://github.com/lawliet89/rand-bytes"
+keywords = ["rand", "random", "bytes"]
+readme = "README.md"
+
+[dependencies]
+clap = "2.23.2"
+lazy_static = "0.2"
+ring = "0.7.5"
+
+[dev-dependencies]
+tempfile = "2.1.5"
