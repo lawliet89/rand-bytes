@@ -2,7 +2,7 @@
 name = "rand-bytes"
 version = "0.1.0"
 authors = ["Yong Wen Chua <me@yongwen.xyz>"]
-license = "Apache 2.0"
+license = "Apache-2.0"
 description = "A simple tool to generate cryptographically secure random bytes using a cryptographic pseudo-random number generator."
 homepage = "https://github.com/lawliet89/rand-bytes"
 repository = "https://github.com/lawliet89/rand-bytes"
