@@ -13,7 +13,7 @@ Install this with cargo:
 cargo install rand-bytes
 ```
 
-Or download one of the [releases](releases).
+Or download one of the [releases](https://github.com/lawliet89/rand-bytes/releases).
 
 If your architecture/OS is not supported, you can simply build it yourself.
 
