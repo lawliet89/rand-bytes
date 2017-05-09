@@ -11,7 +11,7 @@ use std::fs::File;
 use std::io::{self, BufWriter, Write};
 
 use clap::{Arg, App};
-use ring::rand::SystemRandom;
+use ring::rand::{SecureRandom, SystemRandom};
 
 fn main() {
     let args = make_parser().get_matches();
@@ -43,7 +43,7 @@ fn make_parser<'a, 'b>() -> App<'a, 'b>
                  .index(1))
 }
 
-fn rng() -> &'static SystemRandom {
+fn rng() -> &'static SecureRandom {
     use std::ops::Deref;
 
     lazy_static! {
